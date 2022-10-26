@@ -1,5 +1,6 @@
 /* cyrillic-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 100;
@@ -8,6 +9,7 @@
 }
 /* cyrillic */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 100;
@@ -16,6 +18,7 @@
 }
 /* greek-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 100;
@@ -24,6 +27,7 @@
 }
 /* greek */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 100;
@@ -32,6 +36,7 @@
 }
 /* vietnamese */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 100;
@@ -40,6 +45,7 @@
 }
 /* latin-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 100;
@@ -48,6 +54,7 @@
 }
 /* latin */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 100;
@@ -56,6 +63,7 @@
 }
 /* cyrillic-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 200;
@@ -64,6 +72,7 @@
 }
 /* cyrillic */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 200;
@@ -72,6 +81,7 @@
 }
 /* greek-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 200;
@@ -80,6 +90,7 @@
 }
 /* greek */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 200;
@@ -88,6 +99,7 @@
 }
 /* vietnamese */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 200;
@@ -96,6 +108,7 @@
 }
 /* latin-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 200;
@@ -104,6 +117,7 @@
 }
 /* latin */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 200;
@@ -112,6 +126,7 @@
 }
 /* cyrillic-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 300;
@@ -120,6 +135,7 @@
 }
 /* cyrillic */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 300;
@@ -128,6 +144,7 @@
 }
 /* greek-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 300;
@@ -136,6 +153,7 @@
 }
 /* greek */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 300;
@@ -144,6 +162,7 @@
 }
 /* vietnamese */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 300;
@@ -152,6 +171,7 @@
 }
 /* latin-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 300;
@@ -160,6 +180,7 @@
 }
 /* latin */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 300;
@@ -168,6 +189,7 @@
 }
 /* cyrillic-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
@@ -176,6 +198,7 @@
 }
 /* cyrillic */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
@@ -184,6 +207,7 @@
 }
 /* greek-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
@@ -192,6 +216,7 @@
 }
 /* greek */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
@@ -200,6 +225,7 @@
 }
 /* vietnamese */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
@@ -208,6 +234,7 @@
 }
 /* latin-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
@@ -216,6 +243,7 @@
 }
 /* latin */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
@@ -224,6 +252,7 @@
 }
 /* cyrillic-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 500;
@@ -232,6 +261,7 @@
 }
 /* cyrillic */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 500;
@@ -240,6 +270,7 @@
 }
 /* greek-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 500;
@@ -248,6 +279,7 @@
 }
 /* greek */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 500;
@@ -256,6 +288,7 @@
 }
 /* vietnamese */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 500;
@@ -264,6 +297,7 @@
 }
 /* latin-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 500;
@@ -272,6 +306,7 @@
 }
 /* latin */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 500;
@@ -280,6 +315,7 @@
 }
 /* cyrillic-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 600;
@@ -288,6 +324,7 @@
 }
 /* cyrillic */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 600;
@@ -296,6 +333,7 @@
 }
 /* greek-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 600;
@@ -304,6 +342,7 @@
 }
 /* greek */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 600;
@@ -312,6 +351,7 @@
 }
 /* vietnamese */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 600;
@@ -320,6 +360,7 @@
 }
 /* latin-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 600;
@@ -328,6 +369,7 @@
 }
 /* latin */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 600;
@@ -336,6 +378,7 @@
 }
 /* cyrillic-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 700;
@@ -344,6 +387,7 @@
 }
 /* cyrillic */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 700;
@@ -352,6 +396,7 @@
 }
 /* greek-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 700;
@@ -360,6 +405,7 @@
 }
 /* greek */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 700;
@@ -368,6 +414,7 @@
 }
 /* vietnamese */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 700;
@@ -376,6 +423,7 @@
 }
 /* latin-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 700;
@@ -384,6 +432,7 @@
 }
 /* latin */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 700;
@@ -392,6 +441,7 @@
 }
 /* cyrillic-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 800;
@@ -400,6 +450,7 @@
 }
 /* cyrillic */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 800;
@@ -408,6 +459,7 @@
 }
 /* greek-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 800;
@@ -416,6 +468,7 @@
 }
 /* greek */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 800;
@@ -424,6 +477,7 @@
 }
 /* vietnamese */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 800;
@@ -432,6 +486,7 @@
 }
 /* latin-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 800;
@@ -440,6 +495,7 @@
 }
 /* latin */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 800;
@@ -448,6 +504,7 @@
 }
 /* cyrillic-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 900;
@@ -456,6 +513,7 @@
 }
 /* cyrillic */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 900;
@@ -464,6 +522,7 @@
 }
 /* greek-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 900;
@@ -472,6 +531,7 @@
 }
 /* greek */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 900;
@@ -480,6 +540,7 @@
 }
 /* vietnamese */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 900;
@@ -488,6 +549,7 @@
 }
 /* latin-ext */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 900;
@@ -496,6 +558,7 @@
 }
 /* latin */
 @font-face {
+    font-display: swap;
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 900;
