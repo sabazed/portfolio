@@ -1,0 +1,585 @@
+$welcome-white: #f0f0f0;
+$welcome-lgray: #36393f;
+$welcome-dgray: #2c2f33;
+$welcome-blue: #7289da;
+$welcome-dblue: #45567d;
+$welcome-purple: #5865f2;
+$welcome-black: #23272a;
+$welcome-dblack: #202225;
+
+@mixin box-shadow($top, $left, $blur, $color) {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+}
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    color: $welcome-white;
+    background-color: $welcome-dgray;
+}
+
+.header {
+    width: 100%;
+    min-height: 60px;
+    background-color: $welcome-lgray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    @include box-shadow(0, 0, 10px, #00000077);
+    z-index: 100;
+}
+
+.sticky {
+    position: sticky;
+    top:0; left:0;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+    margin-right: 9rem;
+}
+
+.nav-link {
+    padding-bottom: 0.1rem;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: 0.2s ease-in-out;
+}
+
+.active-link {
+    color: $welcome-blue;
+    text-shadow: 0 0 5px #00000077;
+}
+
+.nav-link:hover {
+    @extend .active-link;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 300;
+    color: $welcome-blue;
+}
+
+#home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(129deg, $welcome-dgray, $welcome-dblack);
+}
+
+a {
+    text-decoration: none;
+    color: $welcome-white;
+}
+
+li {
+    list-style: none;
+}
+
+#about {
+    height: 100vh;
+    padding: 0 10% 0 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(32deg, $welcome-dgray, $welcome-dblack);
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#pfp {
+    width: 50%;
+    height: 50%;
+    @include border-radius(10px);
+    @include box-shadow(0, 0, 20px, #00000055);
+    margin: 0 auto;
+}
+
+#links {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        column-gap: 1.5rem;
+        width: 30%;
+    }
+    a {
+        transition: 0.1s ease-in-out;
+        width: 30%;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+    }
+}
+
+#links > div > a:hover {
+    color: $welcome-blue;
+}
+
+#resume-dl {
+    font-size: 1.25rem;
+    color: $welcome-white;
+    @include border-radius(0);
+    background: none;
+    border: none;
+    border-bottom: 2px solid $welcome-blue;
+    display: table;
+    transition: 0.1s ease-in-out;
+}
+
+#resume-dl > span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#resume-dl:hover {
+    cursor: pointer;
+    background: $welcome-blue;
+    color: $welcome-dblack;
+}
+
+#info-div {
+    width: 50vw;
+    min-width: 40vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#about-div {
+    margin-top: -5rem;
+    margin-bottom: -15rem;
+}
+
+.about-title {
+    font-size: 40px;
+    font-style: normal;
+}
+
+.about-text {
+    padding: 1rem 0;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 80%;
+}
+
+#skills-div {
+    max-height: 50%;
+}
+
+.about-skills {
+    height: 100%;
+    width: 100%;
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.about-skills > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.about-skills > div > i:hover {
+    color: $welcome-white;
+}
+
+.skill-icon {
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+    color: #bac7ff;
+    display: block;
+    text-shadow: 1px 1px 5px #00000055;
+}
+
+.skill-title {
+    display: block;
+    white-space: nowrap;
+    text-shadow: 1px 1px 5px #00000055;
+}
+
+.icon-small {
+    font-size: 2.3rem;
+    max-height: 2.5rem;
+}
+
+#exp {
+    background: linear-gradient(142deg, $welcome-dblue, $welcome-blue);
+    padding: 4rem 0;
+}
+
+#exp > h1 {
+    padding: 1.5rem 0;
+}
+
+.projects {
+    width: 100%;
+    margin: 0 auto;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2rem;
+    max-width: 1280px;
+}
+
+.project {
+    position: relative;
+    width: 1fr;
+    background-color: $welcome-dgray;
+    @include border-radius(3px);
+    @include box-shadow(0, 0, 10px, #00000066);
+    transition: 0.15s ease-out;
+}
+
+.project:hover  {
+    @include box-shadow(0, 0, 20px, #00000099);
+    transform: scale(1.06);
+}
+
+img {
+    image-rendering: smooth;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    top: calc(100% - 7rem);
+    width: 100%;
+    height: 7rem;
+    text-align: left;
+    position: absolute;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: $welcome-black;
+    background: rgba(100%, 100%, 100%, 60%);
+    backdrop-filter: blur(3px);
+}
+
+.features {
+    position: absolute;
+    top: calc(100% - 4rem);
+    text-align: left;
+    padding: 1rem;
+    color: #36393f;
+    font-weight: 00;
+    font-size: 14px;
+}
+
+h2 {
+    padding: 0 1rem 0.5rem 1rem;
+    margin: 0 auto;
+    max-width: fit-content;
+    font-size: 44px;
+    border-bottom: 2px solid $welcome-white;
+}
+
+#btn {
+    display: block;
+    width: fit-content;
+    padding: 0.8rem 1.2rem;
+    font-size: 20px;
+    background-color: $welcome-dgray;
+    color: $welcome-white;
+    border: none;
+    @include border-radius(0);
+    margin: 0 auto;
+    transition: 0.105s ease-in-out;
+}
+
+#btn:hover {
+    transform: scale(1.02);
+    text-shadow: 0 0 2px #f0f0f077;
+    cursor: pointer;
+}
+
+#contact {
+    height: 90vh;
+    background: linear-gradient(-69deg, $welcome-black, $welcome-dblack);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact > h1 {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+#contact > p {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.1em;
+    margin-bottom: 4rem;
+    color: $welcome-blue;
+}
+
+#contact-form {
+    padding-top: 5rem;
+    width: max(30%, 300px);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 0.5rem;
+}
+
+#contact-form > * {
+    padding: 0.5rem;
+    @include border-radius(3px);
+    border: none;
+    background: $welcome-lgray;
+    color: $welcome-white;
+}
+
+#contact-form > textarea {
+    resize: none;
+    margin-bottom: 3rem;
+}
+
+#email-btn {
+    padding: 0.5rem 1rem;
+    @include border-radius(0);
+    font-size: 18px;
+    background: none;
+    margin: 0 auto;
+    border-bottom: 2px solid $welcome-blue;
+    transition: 0.1s ease-in-out;
+}
+
+#email-btn:hover {
+    cursor: pointer;
+    background: $welcome-blue;
+    color: $welcome-dblack;
+}
+
+#footer-links {
+    font-size: 26px;
+}
+
+#footer-links > a > i {
+    padding: 0 0.25rem;
+    transition: 0.2s ease-in-out;
+}
+#footer-links > a > i:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background: $welcome-black;
+    border-top: 4px solid $welcome-blue;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 2rem;
+    font-size: 14px;
+}
+
+@media (max-width: 1100px) {
+    #links {
+        div{
+            display: none;
+        }
+        a {
+            font-size: 2rem;
+            padding: 0.5rem;
+        }
+    }
+}
+
+@media (max-width: 940px) {
+    #about {
+        display: table;
+        margin: 0;
+        padding: 0 0 10% 0;
+        width: 100%;
+    }
+    #img-div {
+        display: table;
+        max-height: fit-content;
+    }
+    #pfp {
+        margin-top: 3rem;
+        max-height: 100%;
+        width: 40%;
+    }
+    #links {
+        display: block;
+        a {
+            font-size: 1.5rem;
+            margin: 0 auto;
+        }
+    }
+    #info-div {
+        padding-top: 3rem;
+        width: 100%;
+        display: table;
+    }
+    #about-div {
+        display: table-row;
+        justify-content: space-evenly;
+    }
+    .about-text{
+        text-align: center;
+        max-width: 60%;
+    }
+    #skills-div {
+        padding-top: 3rem;
+    }
+    #skills-div > .about-title {
+        padding-bottom: 0.5rem;
+    }
+    //.about-skills {
+    //    max-width: 70%;
+    //    margin: 0 auto;
+    //}
+    .about-skills > div {
+        padding-bottom: 1rem;
+    }
+
+}
+
+@media (max-width: 740px) {
+    .header {
+        justify-content: center;
+    }
+    #nav-bar {
+        margin: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    #resume-dl > span {
+        font-size: 0.8em;
+    }
+    #links {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 620px) {
+    #about-div {
+        height: 20%;
+    }
+}
+
+@media (max-width: 650px) {
+    .nav-link {
+        font-size: 1rem;
+    }
+    h2 {
+        width: 95%;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-skills {
+        max-width: unset;
+        margin: unset;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 460px) {
+    #header {
+        min-height: 50px;
+        justify-content: center;
+    }
+    #nav-bar {
+        column-gap: 2rem;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+    .projects {
+        grid-template-columns: none;
+        grid-gap: 1rem;
+        max-width: 400px;
+        max-height: max-content;
+    }
+    .image {
+        display: none;
+    }
+    .title, .features {
+        position: relative;
+        top: 0;
+        left: 0;
+        height: unset;
+        background-color: $welcome-white;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 390px) {
+    #nav-bar {
+        column-gap: 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        min-height: 70px;
+    }
+    #nav-bar {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+    #links {
+        width: 90%;
+    }
+}
