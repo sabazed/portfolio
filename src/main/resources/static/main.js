@@ -38,23 +38,48 @@ $(document).ready(function () {
 
     $('#contact-form').on('submit', function (e) {
         e.preventDefault();
-        var request = {};
-        let invalid = false;
+
+        // var request = {};
+        // let invalid = false;
         const form = $('#contact-form');
-        $.each(form.serializeArray(), function (_, pair) {
-            if (pair.value && pair.value.trim()) {
-                request[pair.name] = pair.value;
-            }
-            else {
-                invalid = true;
-            }
-        });
-        if (invalid) return;
-        $.ajax({
-            type: "POST",
-            url: "/contact",
-            data: request
-        });
+        // $.each(form.serializeArray(), function (_, pair) {
+        //     if (pair.value && pair.value.trim()) {
+        //         request[pair.name] = pair.value;
+        //     }
+        //     else {
+        //         invalid = true;
+        //     }
+        // });
+        // if (invalid) return;
+        // $.ajax({
+        //     type: "POST",
+        //     url: "/contact",
+        //     data: request
+        // });
+
+        // Had to do this without Spring Boot, so I have to expose everything here instead of fetching them from env variables
+        const template = "\n---\nThis is an automated email submitted to saba.2003.sz@gmail.com.\nIf you are seeing this it means that your email address has been set as a sender's email address at saba.portfolio.com";
+        const host = "smtp.gmail.com";
+        const user = "portfolio.sabazed@gmail.com";
+        const pswd = "barzhfzianxfxplp";
+        const to = "saba.2003.sz@gmail.com";
+        const from = $('#contact-form-name').val();
+        const subject = $('#contact-form-email').val();
+        const body = $('#contact-form-body').val();
+        if (from && from.trim().length > 0 && subject && subject.trim().length > 0 && body && body.trim().length > 0) {
+            Email.send({
+                Host: host,
+                Username : user,
+                Password : pswd,
+                To : to,
+                From : from.trim(),
+                Subject : subject.trim() + " - Portfolio Automated Email",
+                Body : body.trim() + template,
+            }).then(
+                message => alert("mail sent successfully")
+            );
+        }
+
         form.trigger("reset");
     });
 

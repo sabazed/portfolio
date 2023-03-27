@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" href="styles.css"/>
         <script src="jquery-3.6.1.min.js"></script>
         <script src="main.min.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
         <link rel="icon" type="image/x-icon" href="./imgs/S.png">
         <title>My Portfolio</title>
     </head>
@@ -158,9 +159,9 @@
                 <p>Leave a message in case you have any questions.</p>
 
                 <form id="contact-form" action="#" method="post">
-                    <input name="name" type="text" placeholder="Name" required>
-                    <input name="email" type="email" placeholder="Email" required>
-                    <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                    <input id=contact-form-name" name="name" type="text" placeholder="Name" required>
+                    <input id=contact-form-email" name="email" type="email" placeholder="Email" required>
+                    <textarea id=contact-form-message" name="message" placeholder="Message" rows="5" required></textarea>
                     <button id="email-btn">Submit</button>
                 </form>
 
