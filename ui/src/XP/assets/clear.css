@@ -4,6 +4,11 @@ body {
   box-sizing: border-box;
 }
 
+#root {
+  height: 100%;
+  width: 100%;
+}
+
 *,
 *::after,
 *::before {

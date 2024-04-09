@@ -13,3 +13,14 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+.expr-secret {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    font-size: 8px;
+
+    a {
+        color: var(--dblue);
+    }
+}

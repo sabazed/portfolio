@@ -20,8 +20,7 @@ function Icons({
   const [iconsRect, setIconsRect] = useState([]);
   
   function measure(rect) {
-    if (iconsRect.find(r => r.id === rect.id)) return;
-    setIconsRect(iconsRect => [...iconsRect, rect]);
+    setIconsRect(iconsRect => [...iconsRect.filter(r => r.id !== rect.id), rect]);
   }
 
   useEffect(() => {

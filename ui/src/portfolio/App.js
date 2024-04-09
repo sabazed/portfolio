@@ -6,7 +6,6 @@ import Experience from './components/main/Experience/Experience';
 import Contact from './components/main/Contact/Contact';
 
 import Content from './resources/content.json';
-import Projects from './resources/projects.json';
 import Footer from './components/footer/Footer';
 
 const App = () => {
@@ -14,7 +13,7 @@ const App = () => {
     const links = { github: Content.githubLink, linkedin: Content.linkedinLink };
 
     return (
-        <>
+        <div id="portfolio">
             <Intro id="intro" />
 
             <span id='navbar'></span>
@@ -27,12 +26,12 @@ const App = () => {
                 skills={Content.skills} 
             />
 
-            <Experience id="expr" projects={Projects} links={links} />
+            <Experience id="expr" projects={Content.githubRepos} links={links} />
 
             <Contact id="contact" />
 
             <Footer links={links} />
-        </>
+        </div>
     );
 }
 

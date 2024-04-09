@@ -12,7 +12,6 @@
     --dblack: #202225;
 }
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -21,49 +20,50 @@
 }
 
 body {
-    text-align: center;
-    font-family: "Source Code Pro", "Maven Pro", sans-serif;
-    color: var(--white);
-    font-size: 16px;
-}
+    #portfolio {
+        text-align: center;
+        font-family: "Source Code Pro", "Maven Pro", sans-serif;
+        color: var(--white);
+        font-size: 16px;
 
-a {
-    text-decoration: none;
-}
-
-
-.header {
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
-.container {
-    width: 70%;
-}
-
-.container-right {
-    float: left;
-    margin-left: 5%;
-}
-
-.container-left {
-    float: right;
-    margin-right: 5%;
-}
-
-.flex {
-    display: flex;
-}
-
-.flex-center {
-    justify-content: center;
-    align-items: center;
-}
-
-.flex-row {
-    flex-direction: row;
-}
-
-.flex-col {
-    flex-direction: column;
+        a {
+            text-decoration: none;
+        }
+        
+        .header {
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        
+        .container {
+            width: 70%;
+        }
+        
+        .container-right {
+            float: left;
+            margin-left: 5%;
+        }
+        
+        .container-left {
+            float: right;
+            margin-right: 5%;
+        }
+        
+        .flex {
+            display: flex;
+        }
+        
+        .flex-center {
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .flex-row {
+            flex-direction: row;
+        }
+        
+        .flex-col {
+            flex-direction: column;
+        }
+    }
 }

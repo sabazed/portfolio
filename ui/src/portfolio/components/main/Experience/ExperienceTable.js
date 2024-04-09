@@ -11,8 +11,11 @@ const ExperienceTable = ({ className, projects }) => {
     }
 
     return (
-        <div className={`expr-table flex flex-row ${className}`} >
+        <div className={`expr-table ${className}`} >
             {projects.map(p => <ExperienceItem key={p.title} img={getImg(p.img)} title={p.title} stack={p.stack} descr={p.descr} link={p.link} />)}
+            <div className='expr-secret'>
+                <a href='/xp'>Click me</a>
+            </div>
         </div>
     );
 }

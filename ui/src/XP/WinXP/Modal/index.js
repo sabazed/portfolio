@@ -36,17 +36,25 @@ const Container = ({ className, children }) => {
   );
 };
 const Menu = ({ mode, onClose, onClickButton }) => {
+
+  function handleShutdown() {
+    window.location.pathname = "";
+  }
+  function handleRestart() {
+    window.location.reload();
+  }
+
   function renderButtons() {
     if (mode === POWER_STATE.TURN_OFF) {
       return (
         <>
           <ButtonDisabled img={off} text="Stand By" />
-          <Button img={off} text="Turn Off" onClick={onClickButton} />
+          <Button img={off} text="Turn Off" onClick={handleShutdown} />
           <Button
             style={{ margin: '-3px 0 0px 0', width: '33px', height: '33px' }}
             img={restart}
             text="Restart"
-            onClick={onClickButton}
+            onClick={handleRestart}
           />
         </>
       );
