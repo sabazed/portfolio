@@ -1,0 +1,12 @@
+.button {
+    font-size: 16px;
+    padding: 11px 10px 9px 10px;
+    border-bottom: 2px solid var(--blue);
+    transition: 0.15s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        background: var(--blue);
+        color: var(--dblack);
+    }
+}

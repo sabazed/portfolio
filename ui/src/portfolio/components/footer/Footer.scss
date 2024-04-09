@@ -1,0 +1,28 @@
+.footer {
+    height: 7.5vh;
+    gap: 5px;
+    border-top: 3px solid var(--blue);
+    background-color: var(--black);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4666666667);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4666666667);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4666666667);
+}
+
+.footer-links {
+    font-size: 16px;
+    gap: 10px;
+
+    & .footer-icon {
+        font-size: 22px;
+        transition: 0.15s ease-in-out;
+        color: var(--white);
+    
+        &:hover {
+            color: var(--lblue);
+        }
+    }
+}
+
+.footer-credits {
+    font-size: 14px;
+}

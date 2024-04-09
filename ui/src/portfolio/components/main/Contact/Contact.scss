@@ -1,0 +1,51 @@
+.contact-section {
+    height: 92.5vh;
+    background: linear-gradient(-69deg, var(--black), var(--dblack));
+}
+
+.contact-wrapper {
+    width: 100%;
+    height: 45%;
+
+    
+}
+
+.contact-footer {
+    height: 10%;
+}
+
+.contact-title {
+    font-size: 60px;
+    font-weight: 500;
+    color: var(--white);
+    font-family: "Maven Pro";
+}
+
+.contact-descr {
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--blue);
+}
+
+.contact-form-wrapper {
+    align-items: center;
+    justify-content: space-evenly;
+
+    .contact-form {
+        width: max(30%, 300px);
+        gap: 15px;
+
+        * {
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: 3px;
+            background: var(--lgray);
+            border: none;
+            resize: none;
+        }
+    }
+
+    .contact-btn {
+        width: min-content;
+    }
+}

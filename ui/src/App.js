@@ -1,9 +1,11 @@
 import React from 'react';
 
-import WinXP from 'WinXP';
+import Portfiolio from 'portfolio';
+// import WinXP from 'XP/WinXP';
 
 const App = () => {
-  return <WinXP />;
+  return <Portfiolio />;
+  // return <WinXP />;
 };
 
 export default App;

@@ -1,0 +1,40 @@
+.image-container {
+    gap: 25px;
+
+    .image-picture {
+        width: 400px;
+        height: auto;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3333333333);
+        -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3333333333);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3333333333);
+        margin: 0 auto;
+    }
+
+    .image-links {
+        gap: 20px;
+
+        & > * {
+            color: var(--white);
+        }
+    
+        .image-button {
+            font-size: 20px;
+        }
+    
+        .image-icon {
+            font-size: 45px;
+            transition: 0.15s ease-in-out;
+        
+            &:hover {
+                color: var(--blue);
+            }
+        }
+    }
+}
+
+
+
+

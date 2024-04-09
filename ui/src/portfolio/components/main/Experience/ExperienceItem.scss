@@ -1,0 +1,107 @@
+.expr-item {
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 200px;
+    min-height: 200px;
+    cursor: help;
+    background-color: transparent;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+
+    &:hover {
+        .expr-item-wrapper.not-flipped {
+            transition: 0.25s ease-in-out;
+            box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+        }
+    }
+
+    .expr-item-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 3px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        text-align: center;
+        transition: transform 0.5s ease-in-out;
+        transform-style: preserve-3d;
+
+        &.flipped {
+            transform: rotateY(180deg);
+        }
+
+        & > * {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden; /* Safari */
+            backface-visibility: hidden;
+        }
+    }
+
+}
+
+.expr-item-front {
+    justify-content: end;
+    overflow: hidden;
+    
+    .expr-item-descr {
+        height: 40%;
+        align-items: start;
+        justify-content: space-evenly;
+    }
+}
+
+.expr-item-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+
+    .expr-item-img {
+        transform: rotateY(180deg);
+    }
+
+    .expr-item-descr {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.expr-item-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.expr-item-descr {
+    color: var(--black);
+    background-color: (var(--white));
+    color: var(--black);
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(3px);
+    padding: 7px 15px;
+}
+
+.expr-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    justify-content: space-between;
+
+    :last-child {
+        font-size: 12px;
+        cursor: pointer;
+        color: var(--lgray);
+    }
+}
+
+.expr-item-stack {
+    font-family: "Maven Pro";
+    text-align: left;
+    font-size: 14px;
+    width: 100%;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    overflow: hidden;
+}

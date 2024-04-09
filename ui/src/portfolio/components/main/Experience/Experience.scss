@@ -1,0 +1,19 @@
+.expr-section {
+    background: linear-gradient(142deg, var(--dblue), var(--blue));
+    gap: 60px;
+}
+
+.expr-title {
+    font-size: 60px;
+    font-weight: 500;
+    color: var(--white);
+    font-family: "Maven Pro";
+}
+
+.expr-button {
+    border-bottom: 2px solid var(--white);
+    &:hover {
+        background: var(--white);
+        color: var(--dblue);
+    }
+}

@@ -1,0 +1,15 @@
+.about-section {
+    height: 92.5vh;
+    background: linear-gradient(32deg, var(--dgray), var(--dblack));
+    & > * {
+        flex: 1
+    }
+}
+
+.info-section {
+    gap: 50px;
+    
+    & > * {
+        flex: 1;
+    }
+}

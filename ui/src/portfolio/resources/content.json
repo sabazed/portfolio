@@ -1,0 +1,24 @@
+{
+    "linkedinLink": "https://www.linkedin.com/in/sabazed/",
+    "githubLink": "https://github.com/sabazed",
+    "githubReposLink": "https://github.com/sabazed?tab=repositories",
+    "githubRepos": [],
+    "aboutMeText": "A tech enthusiast and a dedicated student based in Georgia. Currently I am working as a Software Engineer at EPAM Systems and a teaching assistant at KIU, but mostly. Programming is my passion, which encourages me to keep a golden ratio of being both a computer scientist and a developer - best of both worlds, isn't it?",
+    "skills": [
+        { "title": "Java",          "icon": "java-plain" },
+        { "title": "Spring",        "icon": "spring-plain" },
+        { "title": "React",         "icon": "react-plain" },
+        { "title": "Postgres",      "icon": "postgresql-plain"},
+    
+        { "title": "MongoDB",       "icon": "mongodb-plain" },
+        { "title": "Git",           "icon": "github-plain" },
+        { "title": "Docker",        "icon": "docker-plain"},
+        { "title": "AWS",           "icon": "amazonwebservices-plain-wordmark" },
+    
+        { "title": "Python",        "icon": "python-plain"},
+        { "title": "C",             "icon": "c-plain-wordmark" },
+        { "title": "C#",            "icon": "csharp-plain-wordmark"},
+        { "title": "OCaml",         "icon": "ocaml-plain"}
+    
+    ]
+}

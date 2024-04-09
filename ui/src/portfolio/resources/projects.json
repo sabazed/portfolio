@@ -1,0 +1,44 @@
+[
+    {
+        "img": "atm.png",
+        "title": "Netmark",
+        "stack": "Spring, Unity, AWS S3, PostgreSQL",
+        "descr": "Geolocation-based AR application that offers endless opportunities to leave a digital mark and express uniqueness in the AR world",
+        "link": "https://netmark.app"
+    },
+    {
+        "img": "atm.png",
+        "title": "Confessions",
+        "stack": "Spring, React, MariaDB",
+        "descr": "An anonymous social network specifically dedicated for the students of KIU as an alternative to an existing Facebook page",
+        "link": "https://github.com/sabazed/kiu-confessions"
+    },
+    {
+        "img": "atm.png",
+        "title": "Entourist",
+        "stack": "Spring, React, PostgreSQL",
+        "descr": "An offline application for providing necessary information regarding transportation options between locations in Georgia",
+        "link": "https://github.com/sabazed/Entourist"
+    },
+    {
+        "img": "atm.png",
+        "title": "MyAuto",
+        "stack": "React, Typescript",
+        "descr": "An identical website made as a final project for an university course, which uses same API as its original version",
+        "link": "https://sabazed.github.io/myauto/"
+    },
+    {
+        "img": "atm.png",
+        "title": "Exchange",
+        "stack": "JavaEE, Websocket, PostgreSQL",
+        "descr": "An exchange platform for instruments with a dedicated matching engine and message bus for optimal performance",
+        "link": "https://github.com/sabazed/Exchange"
+    },
+    {
+        "img": "atm.png",
+        "title": "CP",
+        "stack": "Spring, React, MariaDB",
+        "descr": "An anonymous social network specifically dedicated for the students of KIU as an alternative to an existing Facebook page",
+        "link": "https://github.com/sabazed/"
+    }
+]
