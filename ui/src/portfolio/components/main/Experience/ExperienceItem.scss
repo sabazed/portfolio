@@ -76,9 +76,7 @@
 
 .expr-item-descr {
     color: var(--black);
-    background-color: (var(--white));
-    color: var(--black);
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.75);
     backdrop-filter: blur(3px);
     padding: 7px 15px;
 }
@@ -97,7 +95,7 @@
 }
 
 .expr-item-stack {
-    font-family: "Maven Pro";
+    font-family: "Maven Pro", sans-serif;
     text-align: left;
     font-size: 14px;
     width: 100%;

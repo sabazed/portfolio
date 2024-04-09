@@ -10,6 +10,9 @@ import Projects from './resources/projects.json';
 import Footer from './components/footer/Footer';
 
 const App = () => {
+
+    const links = { github: Content.githubLink, linkedin: Content.linkedinLink };
+
     return (
         <>
             <Intro id="intro" />
@@ -19,16 +22,16 @@ const App = () => {
 
             <About 
                 id="about"
-                links={{ github: Content.githubLink, linkedin: Content.linkedinLink }} 
+                links={links}
                 aboutMeText={Content.aboutMeText} 
                 skills={Content.skills} 
             />
 
-            <Experience id="expr" projects={Projects}/>
+            <Experience id="expr" projects={Projects} links={links} />
 
             <Contact id="contact" />
 
-            <Footer links={{ github: Content.githubLink, linkedin: Content.linkedinLink }} />
+            <Footer links={links} />
         </>
     );
 }
