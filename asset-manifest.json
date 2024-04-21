@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.81e8c04b.css",
+    "main.css": "/portfolio/static/css/main.ea0a3ae6.css",
     "main.js": "/portfolio/static/js/main.a3a744e3.js",
     "static/media/Saba Zedginidze - Resume.pdf": "/portfolio/static/media/Saba Zedginidze - Resume.99b0e3eee43c9a3ddda8.pdf",
     "static/media/error.wav": "/portfolio/static/media/error.c8da1695dd177fc9e8ec.wav",
@@ -12,11 +12,11 @@
     "static/media/smile.svg": "/portfolio/static/media/smile.2f4a5b9c7cddad8f30a7370051109ff1.svg",
     "index.html": "/portfolio/index.html",
     "static/media/find.svg": "/portfolio/static/media/find.303b87f499358979b1c66a3da1584e67.svg",
-    "main.81e8c04b.css.map": "/portfolio/static/css/main.81e8c04b.css.map",
+    "main.ea0a3ae6.css.map": "/portfolio/static/css/main.ea0a3ae6.css.map",
     "main.a3a744e3.js.map": "/portfolio/static/js/main.a3a744e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.81e8c04b.css",
+    "static/css/main.ea0a3ae6.css",
     "static/js/main.a3a744e3.js"
   ]
 }
