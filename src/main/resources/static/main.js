@@ -12,7 +12,6 @@ $(document).ready(function () {
     const exprMid = expr.offset().top + expr.outerHeight() / 2;
 
     const links = [$('#intro-link'), $('#about-link'), $('#expr-link'), $('#cont-link')];
-    console.log(links);
 
     $(window).scroll(function(){
         const scroll = $(window).scrollTop();

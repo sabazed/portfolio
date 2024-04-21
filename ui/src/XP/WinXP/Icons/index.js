@@ -29,7 +29,6 @@ function Icons({
     const sy = Math.min(selecting.y, mouse.docY);
     const sw = Math.abs(selecting.x - mouse.docX);
     const sh = Math.abs(selecting.y - mouse.docY);
-    console.log(iconsRect);
     const selectedIds = iconsRect
       .filter(rect => {
         const { x, y, w, h } = rect;

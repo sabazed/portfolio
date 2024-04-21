@@ -7,8 +7,8 @@ import WinXP from 'XP/WinXP';
 const App = () => {
   return (
     <Routes>
-      <Route path='' element={<Portfiolio />} />
       <Route path='/xp' element={<WinXP />} />
+      <Route path='/*' element={<Portfiolio />} />
     </Routes>
   );
 };

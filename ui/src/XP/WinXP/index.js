@@ -126,7 +126,6 @@ const reducer = (state, action = { type: '' }) => {
       };
     }
     case SELECT_ICONS: {
-      console.log(action.payload);
       const icons = state.icons.map(icon => ({
         ...icon,
         isFocus: action.payload.includes(icon.id),
