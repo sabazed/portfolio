@@ -48,6 +48,20 @@
     }
 }
 
+@media screen and (min-width: 1921px) {
+    .contact-title {
+        font-size: 80px;
+    }
+    .contact-descr {
+        font-size: 32px;
+    }
+    .contact-form-wrapper {
+        .contact-form > * {
+            font-size: 22px;
+        }
+    }
+}
+
 @media screen and (max-width: 480px) {
     .contact-title {
         font-size: 48px;

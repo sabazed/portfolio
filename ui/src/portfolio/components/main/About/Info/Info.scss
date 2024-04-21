@@ -21,6 +21,23 @@
 
 }
 
+@media screen and (min-width: 1921px) {
+    #about {
+        .info-section {
+            gap: 60px;
+        }
+        .info-container {
+            gap: 30px;
+        }
+        .info-title {
+            font-size: 55px;
+        }
+        .info-text {
+            font-size: 21px;
+        }
+    }
+}
+
 @media screen and (max-width: 900px) {
     #about {
         .info-section.flex {

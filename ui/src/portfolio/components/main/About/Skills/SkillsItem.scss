@@ -48,4 +48,47 @@
     }
 }
 
+@media screen and (min-width: 1921px) {
+    #about {
+        .skills-item-title {
+            font-size: 24px;
+        }
+        .skills-item-icon {
+            font-size: 60px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #about {
+        .skills-item-title {
+            font-size: 16px;
+        }
+        .skills-item-icon {
+            font-size: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #about {
+        .skills-item-title {
+            font-size: 14px;
+        }
+        .skills-item-icon {
+            font-size: 36px;
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #about {
+        .skills-item-title {
+            font-size: 12px;
+        }
+        .skills-item-icon {
+            font-size: 30px;
+        }
+    }
+}
 

@@ -16,6 +16,20 @@
 
 }
 
+@media screen and (min-width: 1921px) {
+    #about {
+        .skills-container {
+            gap: 30px;
+        }
+        .skills-title {
+            font-size: 55px;
+        }
+        .skills-table {
+            gap: 35px 15px;
+        }
+    }
+}
+
 @media screen and (max-width: 900px) {
     #about {
         .skills-container.container {

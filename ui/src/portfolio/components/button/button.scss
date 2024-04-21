@@ -10,3 +10,11 @@
         color: var(--dblack);
     }
 }
+
+@media screen and (min-width: 1921px) {
+    .button {
+        font-size: 22px;
+        padding: 14px 13px 12px 13px;
+        border-bottom: 3px solid var(--blue);
+    }
+}

@@ -109,6 +109,22 @@
     overflow: hidden;
 }
 
+
+@media screen and (min-width: 1921px) {
+    .expr-item {
+        max-width: 400px;
+    }
+    .expr-item-title {
+        font-size: 28px;
+    }
+    .expr-item-stack {
+        font-size: 18px;
+    }
+    .expr-item-back .expr-item-descr {
+        font-size: 22px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .expr-item {
         min-width: 100px;

@@ -35,6 +35,23 @@
     }
 }
 
+@media screen and (min-width: 1921px) {
+    #about {
+        .image-picture {
+            width: 400px;
+        }
+        .image-links {
+            gap: 30px;
+            .image-button {
+                font-size: 26px;
+            }
+            .image-icon {
+                font-size: 60px;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #about {
         .image-container {

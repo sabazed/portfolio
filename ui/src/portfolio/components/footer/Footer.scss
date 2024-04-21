@@ -27,6 +27,15 @@
     font-size: 14px;
 }
 
+@media screen and (min-width: 1921px) {
+    .footer-links .footer-icon {
+        font-size: 25px;
+    }
+    .footer-credits {
+        font-size: 18px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .footer {
         height: 7vh;
