@@ -39,7 +39,7 @@ const Menu = ({ mode, onClose, onClickButton }) => {
 
   function handleShutdown() {
     window.location.pathname = "/portfolio";
-    window.location.hash = "";
+    window.location.hash = "index";
   }
   function handleRestart() {
     window.location.reload();
