@@ -9,7 +9,7 @@ import Section from 'portfolio/components/section/Section';
 const About = ({ id, className, children, aboutMeText, skills, links }) => {
     className = className || "";
     return (
-        <Section id={id} className={"about-section flex flex-row"}>
+        <Section id={id} className={"about-section"}>
             <div>
                 <Image className="container container-left" links={links} />
             </div>

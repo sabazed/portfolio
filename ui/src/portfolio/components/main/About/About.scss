@@ -6,10 +6,41 @@
     }
 }
 
-.info-section {
-    gap: 50px;
-    
-    & > * {
-        flex: 1;
+.about-container {
+
+}
+
+@media screen and (max-width: 900px) {
+    .about-section {
+        flex-direction: column;
+        height: max-content;
+        padding: 50px 0;
+        gap: 50px;
+        & > * {
+            flex: none;
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-section {
+        gap: 30px;
+        & > * {
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-section {
+        & > * {
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 350px) {
+    .about-section {
+        gap: 20px;
     }
 }

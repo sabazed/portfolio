@@ -86,8 +86,13 @@
     font-weight: 500;
     width: 100%;
     justify-content: space-between;
-
+    :first-child {
+        text-overflow: ellipsis;
+        text-wrap: nowrap;
+        overflow: hidden;
+    }
     :last-child {
+        padding: 0 0 0 2px;
         font-size: 12px;
         cursor: pointer;
         color: var(--lgray);
@@ -102,4 +107,31 @@
     text-overflow: ellipsis;
     text-wrap: nowrap;
     overflow: hidden;
+}
+
+@media screen and (max-width: 480px) {
+    .expr-item {
+        min-width: 100px;
+    }
+    .expr-item-title {
+        font-size: 18px;
+    }
+    .expr-item-stack {
+        font-size: 12px;
+    }
+    .expr-item-descr {
+        padding: 5px 12px;
+    }
+    .expr-item-front .expr-item-descr {
+        height: 32%;
+    }
+    .expr-item-back .expr-item-descr {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .expr-item-back .expr-item-descr {
+        font-size: 12px;
+    }
 }

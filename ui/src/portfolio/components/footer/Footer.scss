@@ -10,7 +10,6 @@
 }
 
 .footer-links {
-    font-size: 16px;
     gap: 10px;
 
     & .footer-icon {
@@ -26,4 +25,28 @@
 
 .footer-credits {
     font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        height: 7vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        height: 6vh;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .footer {
+        height: 5vh;
+    }
+    .footer-credits {
+        font-size: 12px;
+    }
+    .footer-links .footer-icon {
+        font-size: 20px;
+    }
 }

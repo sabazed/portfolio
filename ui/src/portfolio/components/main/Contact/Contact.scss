@@ -6,8 +6,6 @@
 .contact-wrapper {
     width: 100%;
     height: 45%;
-
-    
 }
 
 .contact-footer {
@@ -47,5 +45,26 @@
 
     .contact-btn {
         width: min-content;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-title {
+        font-size: 48px;
+    }
+    .contact-descr {
+        font-size: 18px;
+    }
+    .contact-form-wrapper .contact-form {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .contact-title {
+        font-size: 36px;
+    }
+    .contact-descr {
+        font-size: 12px;
     }
 }

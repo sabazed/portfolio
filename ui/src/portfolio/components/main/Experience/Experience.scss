@@ -19,3 +19,26 @@
         color: var(--dblue);
     }
 }
+
+@media screen and (max-width: 900px) {
+    .expr-section {
+        height: max-content;
+        padding: 70px 0 50px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .expr-title {
+        font-size: 54px;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .expr-title {
+        font-size: 44px;
+    }
+    .expr-section {
+        gap: 30px;
+    }
+}

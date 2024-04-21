@@ -16,3 +16,54 @@
 
 }
 
+@media screen and (max-width: 900px) {
+    #about {
+        .skills-container.container {
+            float: none;
+            margin: 0 auto;
+        }
+        .skills-table {
+            gap: 15px 0;
+        }
+        .skills-item-title {
+            font-size: 16px;
+        }
+        .skills-item-icon {
+            font-size: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #about {
+        .skills-container {
+            gap: 20px;
+        }
+        .skills-title {
+            font-size: 32px;
+        }
+        .skills-item-title {
+            font-size: 14px;
+        }
+        .skills-item-icon {
+            font-size: 36px;
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #about {
+        .skills-container {
+            gap: 15px;
+        }
+        .skills-title {
+            font-size: 28px;
+        }
+        .skills-item-title {
+            font-size: 12px;
+        }
+        .skills-item-icon {
+            font-size: 30px;
+        }
+    }
+}

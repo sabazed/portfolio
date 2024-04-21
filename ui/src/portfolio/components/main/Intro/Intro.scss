@@ -13,3 +13,48 @@
     font-weight: 300;
     color: var(--blue);
 }
+
+@media screen and (max-width: 900px) {
+    .intro-title {
+        font-size: 70px;
+    }
+    .intro-descr {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .intro-title {
+        font-size: 60px;
+    }
+    .intro-descr {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .intro-title {
+        font-size: 50px;
+    }
+    .intro-descr {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .intro-title {
+        font-size: 40px;
+    }
+    .intro-descr {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .intro-title {
+        font-size: 30px;
+    }
+    .intro-descr {
+        font-size: 14px;
+    }
+}
