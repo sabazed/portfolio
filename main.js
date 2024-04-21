@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    if (window.location.pathname == "/xp") return;
+    if (window.location.pathname == "/#xp") return;
 
     const navbar = $('.navbar');
     const navbarOffset = navbar.offset().top;
@@ -12,7 +12,6 @@ $(document).ready(function () {
     const exprMid = expr.offset().top + expr.outerHeight() / 2;
 
     const links = [$('#intro-link'), $('#about-link'), $('#expr-link'), $('#cont-link')];
-    console.log(links);
 
     $(window).scroll(function(){
         const scroll = $(window).scrollTop();
