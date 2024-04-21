@@ -3,7 +3,6 @@ $(document).ready(function () {
          || window.location.hash.includes("#xp")) return;
 
     const navbar = $('.navbar');
-    const navbarOffset = navbar.offset().top;
 
     const intro = $('#intro');
     const about = $('#about');
@@ -15,6 +14,7 @@ $(document).ready(function () {
     const links = [$('#intro-link'), $('#about-link'), $('#expr-link'), $('#cont-link')];
 
     $(window).scroll(function(){
+        const navbarOffset = navbar.offset().top;
         const scroll = $(window).scrollTop();
         if (scroll >= navbarOffset) navbar.addClass('navbar-sticky');
         else navbar.removeClass('navbar-sticky');
