@@ -1,5 +1,6 @@
 $(document).ready(function () {
-    if (window.location.pathname == "/#xp") return;
+    if (window.location.pathname.includes("#xp")
+         || window.location.hash.includes("#xp")) return;
 
     const navbar = $('.navbar');
     const navbarOffset = navbar.offset().top;

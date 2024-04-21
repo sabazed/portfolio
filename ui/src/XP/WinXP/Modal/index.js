@@ -38,7 +38,8 @@ const Container = ({ className, children }) => {
 const Menu = ({ mode, onClose, onClickButton }) => {
 
   function handleShutdown() {
-    window.location.pathname = "";
+    window.location.pathname = "/portfolio";
+    window.location.hash = "";
   }
   function handleRestart() {
     window.location.reload();
